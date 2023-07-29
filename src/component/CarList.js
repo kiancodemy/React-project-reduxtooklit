@@ -13,7 +13,10 @@ function CarList() {
 
   const render = cars.map((car) => {
     return (
-      <div key={car.id} className="panel">
+      <div
+        key={car.id}
+        className="panel mt-[8px]  rounded-[10px] border-[2px] border-[#aaa]"
+      >
         <p>
           {car.name}-${car.cost}
         </p>
@@ -25,7 +28,7 @@ function CarList() {
   });
 
   return (
-    <div className="car-list">
+    <div className="car-list mt-[15px]">
       {render}
       <hr />
     </div>

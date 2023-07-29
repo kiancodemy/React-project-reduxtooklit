@@ -20,7 +20,7 @@ function CarForm() {
   };
 
   return (
-    <div className="car-form panel">
+    <div className="car-form panel bg-[#F6F4EB]">
       <h4 className="subtitle is-3">Add caer</h4>
       <form onSubmit={handlesubmit}>
         <div className="field-group">

@@ -9,13 +9,13 @@ function CarSearch() {
     dispatch(changesearch(e.target.value));
   };
   return (
-    <div className="list-header">
-      <h3 className="title is-3">My Cars</h3>
+    <div className="list-header border-t-[3px] border-solid border-b-slate-800">
+      <h3 className="title is-3 mt-[10px]">My Cars</h3>
       <div className="search field is-horizontal">
-        <label className="label">Search</label>
+        <label className="label text-[20px]  mt-[10px]">Search</label>
 
         <input
-          className="input"
+          className="input  mt-[10px]"
           value={searchitem}
           onChange={handlesearch}
         ></input>
